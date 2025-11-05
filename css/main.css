@@ -1,0 +1,45 @@
+:root {
+    --text-color: #262626;
+    --link-color: var(--text-color);
+    --link-color-hover: #E82356;
+    --shade-color: #adadad;
+    --background: #ededed;
+    --source-sans: "Source Sans 3", Arial, sans-serif;
+    --font-large: clamp(2.25rem,4vw,4rem);
+}
+html {
+    font-size: clamp(16px, 2vw, 20px);
+}
+body {
+    max-height: 100vh;
+    max-width: 90vw;
+    margin: 24vh auto;
+    text-align: center;
+    background-color: var(--background);
+}
+h1 {
+    font-family: var(--source-sans);
+    font-weight: 400;
+    font-size: var(--font-large);
+    line-height: 100%;
+    letter-spacing: -0.035rem;
+}
+p {
+    font-family: var(--source-sans);
+}
+p a {
+    color: var(--link-color);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px !important;
+    text-decoration-color: var(--link-color-hover);
+    transition: all 0.3s ease;
+}
+p a:hover {
+    color: var(--link-color-hover);
+    text-decoration-color: transparent;
+}
+.footer-image {
+    max-width: 3rem;
+    margin-top: 12vh;
+}
