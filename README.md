@@ -1,5 +1,5 @@
-# Welcome to my GitHub.
+# Joey Sweener on GitHub.
 
-Looking for more information about Anthology CTM? [Go here](https://sweenerjoey.github.io/anthology-ctm/).
+The repository for my GitHub Pages root URL. All typography on the page is set in [Source Sans 3](https://fonts.google.com/specimen/Source+Sans+3) from Google Fonts, and uses bespoke HTML and CSS written by me. No AI to be found in this bad boi. Thanks for checking it out.
 
-Want to see my professional graphic design portfolio? You can do that [here](https://jsweener.carrd.co/).
+Learn more about me on my [portfolio website](https://jsweener.carrd.co/).
