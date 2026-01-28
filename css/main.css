@@ -1,42 +1,64 @@
 :root {
-    --text-color: #262626;
-    --link-color: var(--text-color);
-    --link-color-hover: #E82356;
-    --shade-color: #adadad;
-    --background: #ededed;
-    --font-sans: "Nunito Sans", Arial, sans-serif;
-    --font-large: clamp(2.25rem,4vw,4rem);
+    --base-value: clamp(16px, 1.5vw, 18px);
+
+    --color-primary: #E82356;
+    --color-white: #ffffff;
+    --color-gray-100: #ededed;
+    --color-gray-200: #adadad;
+    --color-gray-300: #545454;
+    --color-gray-400: #262626;
+    --color-black: #080b0c;
+    --color-black-trans: rgb(from var(--color-black) r g b / 0.5);
+    --color-black-gradient: linear-gradient(180deg, var(--color-black-trans) 50%, var(--color-black));
+
+    --font-sans: "Nunito Sans", system-ui, Arial, sans-serif;
+    --font-serif: "Newsreader", Georgia, Times, serif;
+    --font-size-16: var(--base-value);
+    --font-size-24: calc(var(--base-value) * 1.5);
+    --font-size-32: calc(var(--base-value) * 2);
+    --font-size-48: calc(var(--base-value) * 3);
+
+    --line-height-base: 1;
+    --line-height-single: var(--line-height-base);
+    --line-height-150: calc(var(--line-height-base) * 1.5);
+    --line-height-double: calc(var(--line-height-base) * 2);
+    --letter-spacing-tighter: -0.1rem;
+    --letter-spacing-tight: -0.01rem;
+    --letter-spacing-normal: 0;
+    --letter-spacing-loose: 0.075rem;
+    --letter-spacing-looser: 0.15rem;
 }
 html {
-    font-size: clamp(16px, 2vw, 20px);
+    font-size: var(--base-value);
 }
 body {
     max-height: 100vh;
     max-width: 90vw;
     margin: 24vh auto;
     text-align: center;
-    background-color: var(--background);
+    background-color: var(--color-gray-100);
+    color: var(--color-black);
 }
 h1 {
-    font-family: var(--font-sans);
-    font-weight: 400;
-    font-size: var(--font-large);
+    font-family: var(--font-serif);
+    font-weight: 300;
+    font-size: var(--font-size-48);
     line-height: 100%;
-    letter-spacing: -0.035rem;
+    letter-spacing: var(--letter-spacing-tight);
 }
 p {
     font-family: var(--font-sans);
 }
 p a {
-    color: var(--link-color);
+    color: var(--color-black);
     text-decoration: underline;
     text-underline-offset: 3px;
     text-decoration-thickness: 1px !important;
-    text-decoration-color: var(--link-color-hover);
+    text-decoration-color: var(--color-primary);
     transition: all 0.3s ease;
 }
 p a:hover {
-    color: var(--link-color-hover);
+    color: var(--color-primary);
     text-decoration-color: transparent;
 }
 .footer-image {
