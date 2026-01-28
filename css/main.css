@@ -4,7 +4,7 @@
     --link-color-hover: #E82356;
     --shade-color: #adadad;
     --background: #ededed;
-    --source-sans: "Source Sans 3", Arial, sans-serif;
+    --font-sans: "Nunito Sans", Arial, sans-serif;
     --font-large: clamp(2.25rem,4vw,4rem);
 }
 html {
@@ -18,14 +18,14 @@ body {
     background-color: var(--background);
 }
 h1 {
-    font-family: var(--source-sans);
+    font-family: var(--font-sans);
     font-weight: 400;
     font-size: var(--font-large);
     line-height: 100%;
     letter-spacing: -0.035rem;
 }
 p {
-    font-family: var(--source-sans);
+    font-family: var(--font-sans);
 }
 p a {
     color: var(--link-color);
