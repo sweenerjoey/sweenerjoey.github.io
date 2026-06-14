@@ -3,18 +3,52 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width">
-    <title>Joey Sweener on GitHub</title>
+    <title>Joey Sweener on Github</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200..800;1,200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/skeleton.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
   </head>
   <body>
-    <h1>Joey Sweener on GitHub</h1>
-    <p>Looking for information about Anthology CTM, my series of Minecraft maps? <a href="https://sweenerjoey.github.io/anthology-ctm/">Learn about Anthology here.</a></p>
-    <p>You can also <a href="https://github.com/sweenerjoey">see my repositories</a> for other projects, or visit my <a href="https://jsweener.carrd.co/">design portfolio</a>. Thanks!</p>
-    <img src="./assets/sweenerjoey_github-icon.svg" alt="Icon of 4 bars forming a sound wave, used as a profile icon on GitHub by Joey Sweener" class="footer-image">
+    <section class="block">
+      <div class="container grid">
+        <img src="./assets/sweenerjoey_github-icon.svg" alt="Icon with 4 vertical bars arranged like a sound wave, used as a profile icon by Joey Sweener on Github." class="span-1" style="max-width: 48px;">
+        <div class="span-all" style="height: calc(var(--top-spacing) - 48px)"></div>
+        <h1 class="span-all md-span-7">Welcome to my little corner of the technical internet, where you can find my Github repositories for a variety of projects (though, mostly web ones).</h1>
+      </div>
+    </section>
+    <section class="block">
+      <div class="container grid portfolio">
+        <div class="span-all md-span-8">
+          <a href="https://sweenerjoey.github.io/anthology-ctm/" class="flex flex-col">
+            <img src="./assets/splash-anthology-alt.png" alt="A foreboading Minecraft build featuring a central tower and a looming blood-red sky.">
+            <p>Anthology — Minecraft Maps</p>
+          </a>
+        </div>
+        <div class="span-all md-span-1 spacer"></div>
+        <div class="span-all md-span-3">
+          <a class="flex flex-col">
+            <img src="./assets/splash-datapacks.jpg" alt="Black icons on a yellow background." class="disabled">
+            <p>Minecraft Datapacks<br><i style="color: var(--color-gray-200);">Coming soon...</i></p>
+          </a>
+        </div>
+        <div class="span-all md-span-4">
+          <a href="https://github.com/sweenerjoey" class="flex flex-col">
+            <img src="./assets/splash-repositories.png" alt="Black and white technical blueprint illustration.">
+            <p>View all repositories</p>
+          </a>
+        </div>
+        <div class="span-all md-span-8">
+          <a href="https://jsweener.com/" class="flex flex-col">
+            <img src="./assets/splash-portfolio.jpg" alt="Displayed magazine designs for Oswego County Business Magazine.">
+            <p>View my portfolio</p>
+          </a>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
