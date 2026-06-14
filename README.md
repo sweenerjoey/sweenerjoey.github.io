@@ -1,5 +1,5 @@
-# Joey Sweener on GitHub.
+# Joey Sweener on Github.
 
-The repository for my GitHub Pages root URL. The typography on the page is set in [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) and [Newsreader](https://fonts.google.com/specimen/Newsreader) from Google Fonts, and uses unique HTML/CSS written by me. Thanks for checking it out.
+The repository for my Github Pages root URL. The typography on the page is set in Inter, and uses unique HTML/CSS written by me. Thanks for checking it out.
 
-Learn more about me on my [portfolio website](https://jsweener.carrd.co/).
+Learn more about me on my [portfolio website](https://jsweener.com).
