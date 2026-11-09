@@ -48,10 +48,10 @@ a {
     text-decoration: none;
 }
 .portfolio {
-    --grid-gap: var(--spacing-400);
+    --grid-gap: var(--spacing-200);
 }
 .portfolio img {
-    aspect-ratio: 4/3;
+    aspect-ratio: 1/1;
     object-fit: cover;
 }
 .portfolio a:hover img:not(.disabled) {
